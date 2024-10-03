@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: blue;
+}
+
+.ice{
+    width: 250px;
+    height: 400px;
+    background-color: orangered;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 100px 100px 5px 5px;
+}
+
+.chob{
+    width: 50px;
+    height: 100px;
+    background-color: red;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+
+    overflow: hidden;
+}
+
+.shadow{
+    width: 50px;
+    height: 20px;
+    background-color: #850000;
+    margin: auto;
+}
+
+.ice:hover{
+    background-color: pink;
+}
+
+.chob:active{
+    background-color: black;
+}
